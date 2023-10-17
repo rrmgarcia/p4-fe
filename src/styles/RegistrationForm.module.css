@@ -1,0 +1,25 @@
+#registrationForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50vh;
+  height: 50vh;
+  border-color: black;
+  background-color: rgb(27, 54, 88);
+}
+.registrationInput {
+  width: 25vh;
+  margin-left: 12.5vh;
+  margin-bottom: 1vh;
+}
+
+#loginSubmitButton {
+  width: 10vh;
+  margin-left: 20vh;
+  margin-bottom: 2vh;
+}
+
+.errorMsg {
+  color: rgb(158, 4, 4);
+  margin-bottom: 1vh;
+}

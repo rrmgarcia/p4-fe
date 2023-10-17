@@ -1,0 +1,20 @@
+#taskList {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    justify-content: space-between;
+    background-color: grey;
+    width: 80vh;
+}
+
+#taskList > button {
+    margin-top: 10px;
+    height: 30px;
+    background-color: rgb(3, 185, 33);
+}
+
+.actionButton {
+    margin-top: 10px;
+    height: 30px;
+    background-color: rgb(105, 109, 105);
+}
